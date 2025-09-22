@@ -3,6 +3,7 @@ import { Menu, X, Github, Linkedin, Mail, Phone, MapPin, Download, ExternalLink,
 import mailerjob from './assets/mailerjob.png';
 import sml from './assets/sml.png';
 import fechzo from './assets/fechzo.png';
+import pic from './assets/pic.png';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -266,7 +267,7 @@ function App() {
             <div className="relative">
               <div className="relative z-10">
                 <img
-                  src="src\assets\pic.png"
+                  src = {pic}
                   alt="Profile"
                   className="w-full max-w-sm mx-auto rounded-2xl shadow-2xl"
                 />
