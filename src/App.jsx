@@ -48,13 +48,13 @@ function App() {
   ];
 
   const skills = [
-    { name: 'JavaScript', level: 90, color: 'bg-yellow-500' },
-    { name: 'React', level: 95, color: 'bg-blue-500' },
+    { name: 'JavaScript', level: 80, color: 'bg-yellow-500' },
+    { name: 'React', level: 90, color: 'bg-blue-500' },
     { name: 'Node.js', level: 88, color: 'bg-green-600' },
     { name: 'Express.js', level: 85, color: 'bg-gray-600' },
     { name: 'MongoDB', level: 85, color: 'bg-green-700' },
     { name: 'Next.js', level: 80, color: 'bg-black' },
-    { name: 'Java', level: 75, color: 'bg-red-600' },
+    { name: 'Java', level: 70, color: 'bg-red-600' },
     { name: 'HTML5', level: 95, color: 'bg-orange-500' },
     { name: 'CSS3', level: 90, color: 'bg-blue-600' },
     { name: 'MySQL', level: 80, color: 'bg-blue-700' },
@@ -695,11 +695,6 @@ function App() {
                   <h4 className="font-medium text-gray-900">Cloud Deployment</h4>
                   <p className="text-sm text-gray-600">AWS, Vercel, Render solutions</p>
                 </div>
-                <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
-                  <Monitor className="h-8 w-8 text-orange-600 mb-2" />
-                  <h4 className="font-medium text-gray-900">UI/UX Design</h4>
-                  <p className="text-sm text-gray-600">Responsive & modern interfaces</p>
-                </div>
               </div>
             </div>
           </div>
@@ -756,7 +751,6 @@ function App() {
                 <li>API Development</li>
                 <li>Cloud Deployment</li>
                 <li>Database Design</li>
-                <li>Responsive Web Design</li>
               </ul>
             </div>
           </div>
